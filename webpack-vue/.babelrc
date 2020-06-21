@@ -1,0 +1,30 @@
+// {
+//   "presets": [
+//     "@babel/preset-env"
+//   ],
+//   "plugins": [
+//     "@babel/plugin-transform-runtime",
+//     [
+//       "component",
+//       {
+//         "libraryName": "element-ui",
+//         "styleLibraryName": "theme-chalk"
+//       },
+//       "element-ui"
+//     ]
+//   ]
+// }
+{
+  "presets": [
+    // "env",
+    // "@babel/preset-stage-3"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"//解决编译中产生的重复的工具函数，减小代码体积 使用async await时需要用到
+    // "syntax-dynamic-import"//用以解析识别import()动态导入语法---并非转换，而是解析识别
+    // "transform-remove-console" //编译后的代码会移除console.
+  ]
+}
+// 1、plugins会先于presets进行编译
+// 2、plugins会按照数组index的增序进行编译
+// 3、presets会按照数组index的降序进行编译

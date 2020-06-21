@@ -1,0 +1,69 @@
+/* 设置全局样式 */
+
+image {
+    width: 100%;
+}
+
+.dadian {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* #endif */
+
+
+/* 主色调 */
+
+
+/* 主背景颜色（橙色）*/
+
+.main-bg-color {
+    background-color: #0882f4;
+}
+
+
+/* 主点击背景颜色（淡橙色）*/
+
+.main-bg-hover-color {
+    background-color: rgba(63, 194, 28, 0.7)
+}
+
+
+/* 主字体颜色（橙色）*/
+
+.main-text-color {
+    color: #0882f4;
+}
+
+
+/* 主边框颜色 */
+
+.main-border {
+    border: 1px solid #0882f4;
+}
+
+.main-border-color {
+    border-color: #0882f4;
+}
+
+.main-border-top {
+    border-top: 1px solid #f0f0f0;
+}
+
+.main-border-right {
+    border-right: 1px solid #f0f0f0;
+}
+
+.main-border-bottom {
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.main-border-left {
+    border-left: 1px solid #f0f0f0;
+}
+
+.el-pagination {
+    text-align: center; 
+}

@@ -15,6 +15,6 @@ module.exports = merge(base, {
     // 配置开发服务器
     devServer: {
         port: 8082,
-        open: true,
+        // open: true,
     }
 })

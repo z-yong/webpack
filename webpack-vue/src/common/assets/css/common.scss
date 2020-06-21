@@ -1,0 +1,12 @@
+// 字体大小
+$font-xs: 24px;
+$font-sm: 28px;
+$font-md: 32px;
+$font-bg: 36px;
+$font-lg: 48px;
+$font-hg: 76px;
+
+// 阴影
+@mixin boxShadow() {
+    box-shadow: 0 20px 30px rgba(25, 125, 188, 0.1);
+}
